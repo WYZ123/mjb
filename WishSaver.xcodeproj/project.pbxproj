@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFD19EB1A636F5930BCC1EA /* WishCheckInViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5F7783D712C8B3342C496 /* WishCheckInViews.swift */; };
+		0B9F6FD8BCC47D225A1B92CA /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103AA088D83DE831A742B205 /* Components.swift */; };
+		17634F8D95A1AE84ED5ACC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A173F68CE4393A62D8072E /* Assets.xcassets */; };
+		1827A29CBB640C8F6F8B8074 /* WishStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199B8C803DC40D104CF96B5C /* WishStore.swift */; };
+		1F15C2472F1E328823835F29 /* WishCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA00781FD5618F79287995 /* WishCheckIn.swift */; };
+		3C55A0352BF6C4E899413C9F /* WishAdViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDDC23072ECECD846BEB60 /* WishAdViews.swift */; };
+		45AC71E8D4C65EE734F3986C /* WishAdvClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC728AE9E6A0FDA9CDC49BA9 /* WishAdvClient.swift */; };
+		49EA64CDDEFE38CF2170394E /* WishPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352CA541FA7BDF66249AD6FB /* WishPreferences.swift */; };
+		4C5EC5D15B8ACD088BB87267 /* WishAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B78487FF6CFE09EF3F7899 /* WishAPIConfig.swift */; };
+		536029EF50EF9D1BA2F3266A /* WishAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44A6DAF55545BA2CA37E21 /* WishAppDelegate.swift */; };
+		59497E92028AA38B4302FA0E /* WishEmbeddedBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D45D4352F2C76994AC6EBD6 /* WishEmbeddedBrowserView.swift */; };
+		5A31A20A8F88884C0F16FDA3 /* WishLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7B97DA9F1116F7FFBD7DA2 /* WishLaunchScreen.storyboard */; };
+		5D40C5BB4377A45E4419BE7D /* WishProgressTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D3941B36FA4CE6B5FA0BD9 /* WishProgressTab.swift */; };
+		5D853F17385F7CB6402B99CD /* WishDeviceIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A1BD398B2CF68DC834D53 /* WishDeviceIdentity.swift */; };
+		60345B6E9BDC571E58DF9342 /* WishSettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E068AD48FF0C819BD963112E /* WishSettingsTab.swift */; };
+		70FBD2A1DD1E9E0C461E58FD /* WishAddWishTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95D8825B007A241BE576C1 /* WishAddWishTab.swift */; };
+		71122BA2320AB5979B5D5DA9 /* WishSaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B407035F190422B0934D4A66 /* WishSaverApp.swift */; };
+		7131F4E75F935C6FFF08C664 /* WishLaunchDateGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FACDA09D3BFFE09C928582 /* WishLaunchDateGate.swift */; };
+		71DC9729C7BA8F184607F6BF /* WishSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385386A24AD93BE3F2E7BCF /* WishSamples.swift */; };
+		721F0114142D01FBE0C62565 /* Pods_WishSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD5D19B0FF12E38C48F763D /* Pods_WishSaver.framework */; };
+		768AFE2FBD9C9659E9DAEC60 /* WishTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2527FB55141FB3413D18FF /* WishTheme.swift */; };
+		826D6F14AD0E8CA6096713B1 /* WishVersionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC86752C88ED69421908E7 /* WishVersionClient.swift */; };
+		9451750A9517ACC94A2E6EE3 /* WishEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D72A69E58ADA1CAC3EFD5 /* WishEditorSheet.swift */; };
+		9B8D980B150EE42063976F69 /* WishDataTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692101AA81D8511B1041CF60 /* WishDataTab.swift */; };
+		9BEA9D5EB3DDEEDFB8D12D73 /* WishPayFieldClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C604B7D7E2F0A2FB1EC577 /* WishPayFieldClient.swift */; };
+		9D1EFCF4D175DC20B5D90BB7 /* WishCodeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DC97D8218A2673220E95F /* WishCodeClient.swift */; };
+		AE6C9755CD86F7FD7ADF5B69 /* WishRootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53388170C9B76944F92E374C /* WishRootTabView.swift */; };
+		B54D926161C95D6DA0324A7C /* WishFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F403A2F6A0403C373AAE2A /* WishFormat.swift */; };
+		BAD01A84A6F6E58D886D233B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C59E9961EC7257756DC60 /* Models.swift */; };
+		C137C0F80261F91252984480 /* WishLaunchConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB428CD59F3F5F02E70CF1 /* WishLaunchConfig.swift */; };
+		C3C52F0C8DE47F1D1CCFCDFA /* WishJPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E52FE10FCBE850DF558479D /* WishJPush.swift */; };
+		C94D2F56434F6F5549DCCC9F /* WishNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9E6D407B5DD6E55B0C663 /* WishNetworkLogger.swift */; };
+		CD817290380DEC59E0C5B837 /* WishTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45BE3CF184D14A83724514 /* WishTutorialView.swift */; };
+		D87DBF6377F8E017EBF570AA /* WishCodeEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696A0A8EBF1975476F552F38 /* WishCodeEntryView.swift */; };
+		E55698E6D1BA802824C10D07 /* WishLaunchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF572715FA1D36C908932772 /* WishLaunchRootView.swift */; };
+		E77BC404920709BD77FF278E /* WishPrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F99F680D7F71EFDCF43AD36 /* WishPrivacyPolicy.swift */; };
+		EF5F391A636A1B3B16AE7DAD /* WishLaunchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE6BE196783823141D4F1F /* WishLaunchRouter.swift */; };
+		F69ADE5F9FC61E347DBDD9E4 /* help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7EF96739282441399CC60 /* help.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AAE6BE196783823141D4F1F /* WishLaunchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishLaunchRouter.swift; sourceTree = "<group>"; };
+		0B0C59E9961EC7257756DC60 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		103AA088D83DE831A742B205 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		13D9E6D407B5DD6E55B0C663 /* WishNetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishNetworkLogger.swift; sourceTree = "<group>"; };
+		199B8C803DC40D104CF96B5C /* WishStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishStore.swift; sourceTree = "<group>"; };
+		2E52FE10FCBE850DF558479D /* WishJPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishJPush.swift; sourceTree = "<group>"; };
+		2F99F680D7F71EFDCF43AD36 /* WishPrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishPrivacyPolicy.swift; sourceTree = "<group>"; };
+		30E7EF96739282441399CC60 /* help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = help.swift; sourceTree = "<group>"; };
+		352CA541FA7BDF66249AD6FB /* WishPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishPreferences.swift; sourceTree = "<group>"; };
+		3D0DC97D8218A2673220E95F /* WishCodeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCodeClient.swift; sourceTree = "<group>"; };
+		3FCDDC23072ECECD846BEB60 /* WishAdViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishAdViews.swift; sourceTree = "<group>"; };
+		45D3941B36FA4CE6B5FA0BD9 /* WishProgressTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishProgressTab.swift; sourceTree = "<group>"; };
+		53388170C9B76944F92E374C /* WishRootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishRootTabView.swift; sourceTree = "<group>"; };
+		5385386A24AD93BE3F2E7BCF /* WishSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishSamples.swift; sourceTree = "<group>"; };
+		56B78487FF6CFE09EF3F7899 /* WishAPIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishAPIConfig.swift; sourceTree = "<group>"; };
+		5C7B97DA9F1116F7FFBD7DA2 /* WishLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WishLaunchScreen.storyboard; sourceTree = "<group>"; };
+		692101AA81D8511B1041CF60 /* WishDataTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishDataTab.swift; sourceTree = "<group>"; };
+		696A0A8EBF1975476F552F38 /* WishCodeEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCodeEntryView.swift; sourceTree = "<group>"; };
+		6D45D4352F2C76994AC6EBD6 /* WishEmbeddedBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishEmbeddedBrowserView.swift; sourceTree = "<group>"; };
+		73FACDA09D3BFFE09C928582 /* WishLaunchDateGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishLaunchDateGate.swift; sourceTree = "<group>"; };
+		9BAA00781FD5618F79287995 /* WishCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCheckIn.swift; sourceTree = "<group>"; };
+		B1AB428CD59F3F5F02E70CF1 /* WishLaunchConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishLaunchConfig.swift; sourceTree = "<group>"; };
+		B407035F190422B0934D4A66 /* WishSaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishSaverApp.swift; sourceTree = "<group>"; };
+		B5316228E13969E6DA0EC68A /* Pods-WishSaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishSaver.debug.xcconfig"; path = "Target Support Files/Pods-WishSaver/Pods-WishSaver.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A5F7783D712C8B3342C496 /* WishCheckInViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCheckInViews.swift; sourceTree = "<group>"; };
+		B5C604B7D7E2F0A2FB1EC577 /* WishPayFieldClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishPayFieldClient.swift; sourceTree = "<group>"; };
+		BB95D8825B007A241BE576C1 /* WishAddWishTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishAddWishTab.swift; sourceTree = "<group>"; };
+		BF44A6DAF55545BA2CA37E21 /* WishAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishAppDelegate.swift; sourceTree = "<group>"; };
+		C03BA06D0ACFFEDCEF5146C2 /* Pods-WishSaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishSaver.release.xcconfig"; path = "Target Support Files/Pods-WishSaver/Pods-WishSaver.release.xcconfig"; sourceTree = "<group>"; };
+		CB45BE3CF184D14A83724514 /* WishTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTutorialView.swift; sourceTree = "<group>"; };
+		D2FC86752C88ED69421908E7 /* WishVersionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishVersionClient.swift; sourceTree = "<group>"; };
+		D97791E6F4D891976D97A174 /* WishSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC728AE9E6A0FDA9CDC49BA9 /* WishAdvClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishAdvClient.swift; sourceTree = "<group>"; };
+		DE2527FB55141FB3413D18FF /* WishTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTheme.swift; sourceTree = "<group>"; };
+		E068AD48FF0C819BD963112E /* WishSettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishSettingsTab.swift; sourceTree = "<group>"; };
+		E1A173F68CE4393A62D8072E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F403A2F6A0403C373AAE2A /* WishFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishFormat.swift; sourceTree = "<group>"; };
+		ECD5D19B0FF12E38C48F763D /* Pods_WishSaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WishSaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF572715FA1D36C908932772 /* WishLaunchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishLaunchRootView.swift; sourceTree = "<group>"; };
+		F51D72A69E58ADA1CAC3EFD5 /* WishEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishEditorSheet.swift; sourceTree = "<group>"; };
+		FF7A1BD398B2CF68DC834D53 /* WishDeviceIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishDeviceIdentity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E511435650AA44DB9387C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721F0114142D01FBE0C62565 /* Pods_WishSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1A8C0E042BC98D35F8218A /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				DE2527FB55141FB3413D18FF /* WishTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		0C34F6F0960CA6C57478521A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5D19B0FF12E38C48F763D /* Pods_WishSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1353814DAE2CE561324BDA04 /* WishSaver */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC266AFE5CDE79687EB939 /* App */,
+				0C1A8C0E042BC98D35F8218A /* Design */,
+				F117831C1A14D855351D8A86 /* Launch */,
+				E2DD66E631D38798C2795DF9 /* Model */,
+				7A59C09E7AA15963A40B5C30 /* Resource */,
+				E80E927D14D61A8B430755B2 /* Store */,
+				87AEB828CB0E1C0B3F608DAD /* View */,
+			);
+			path = WishSaver;
+			sourceTree = "<group>";
+		};
+		3405DF8DBC8FA21C7330D8B9 = {
+			isa = PBXGroup;
+			children = (
+				1353814DAE2CE561324BDA04 /* WishSaver */,
+				E6AEFBF110A411AD93D2E6AF /* Products */,
+				952163CE26D8C0627C5E913B /* Pods */,
+				0C34F6F0960CA6C57478521A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A59C09E7AA15963A40B5C30 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E1A173F68CE4393A62D8072E /* Assets.xcassets */,
+				5C7B97DA9F1116F7FFBD7DA2 /* WishLaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		87AEB828CB0E1C0B3F608DAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				103AA088D83DE831A742B205 /* Components.swift */,
+				BB95D8825B007A241BE576C1 /* WishAddWishTab.swift */,
+				B5A5F7783D712C8B3342C496 /* WishCheckInViews.swift */,
+				692101AA81D8511B1041CF60 /* WishDataTab.swift */,
+				F51D72A69E58ADA1CAC3EFD5 /* WishEditorSheet.swift */,
+				2F99F680D7F71EFDCF43AD36 /* WishPrivacyPolicy.swift */,
+				45D3941B36FA4CE6B5FA0BD9 /* WishProgressTab.swift */,
+				E068AD48FF0C819BD963112E /* WishSettingsTab.swift */,
+				CB45BE3CF184D14A83724514 /* WishTutorialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		952163CE26D8C0627C5E913B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5316228E13969E6DA0EC68A /* Pods-WishSaver.debug.xcconfig */,
+				C03BA06D0ACFFEDCEF5146C2 /* Pods-WishSaver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5EC266AFE5CDE79687EB939 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				30E7EF96739282441399CC60 /* help.swift */,
+				BF44A6DAF55545BA2CA37E21 /* WishAppDelegate.swift */,
+				2E52FE10FCBE850DF558479D /* WishJPush.swift */,
+				53388170C9B76944F92E374C /* WishRootTabView.swift */,
+				B407035F190422B0934D4A66 /* WishSaverApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E2DD66E631D38798C2795DF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C59E9961EC7257756DC60 /* Models.swift */,
+				9BAA00781FD5618F79287995 /* WishCheckIn.swift */,
+				E9F403A2F6A0403C373AAE2A /* WishFormat.swift */,
+				5385386A24AD93BE3F2E7BCF /* WishSamples.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6AEFBF110A411AD93D2E6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97791E6F4D891976D97A174 /* WishSaver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E80E927D14D61A8B430755B2 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				352CA541FA7BDF66249AD6FB /* WishPreferences.swift */,
+				199B8C803DC40D104CF96B5C /* WishStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		F117831C1A14D855351D8A86 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DC728AE9E6A0FDA9CDC49BA9 /* WishAdvClient.swift */,
+				3FCDDC23072ECECD846BEB60 /* WishAdViews.swift */,
+				56B78487FF6CFE09EF3F7899 /* WishAPIConfig.swift */,
+				3D0DC97D8218A2673220E95F /* WishCodeClient.swift */,
+				696A0A8EBF1975476F552F38 /* WishCodeEntryView.swift */,
+				FF7A1BD398B2CF68DC834D53 /* WishDeviceIdentity.swift */,
+				6D45D4352F2C76994AC6EBD6 /* WishEmbeddedBrowserView.swift */,
+				B1AB428CD59F3F5F02E70CF1 /* WishLaunchConfig.swift */,
+				73FACDA09D3BFFE09C928582 /* WishLaunchDateGate.swift */,
+				EF572715FA1D36C908932772 /* WishLaunchRootView.swift */,
+				0AAE6BE196783823141D4F1F /* WishLaunchRouter.swift */,
+				13D9E6D407B5DD6E55B0C663 /* WishNetworkLogger.swift */,
+				B5C604B7D7E2F0A2FB1EC577 /* WishPayFieldClient.swift */,
+				D2FC86752C88ED69421908E7 /* WishVersionClient.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83FEDFB79E7156FD7DE65F36 /* WishSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177CE93AA7AB54A577A7DE85 /* Build configuration list for PBXNativeTarget "WishSaver" */;
+			buildPhases = (
+				BEA91FCF11E728281A238A77 /* [CP] Check Pods Manifest.lock */,
+				631648EEE0FA9929937BF0D7 /* Sources */,
+				1C8E08D740CF7BBCB62BBC62 /* Resources */,
+				8E511435650AA44DB9387C13 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WishSaver;
+			productName = WishSaver;
+			productReference = D97791E6F4D891976D97A174 /* WishSaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5B711FCAF872F6F49DBCA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2720;
+			};
+			buildConfigurationList = D3CC3172E54E5C9ADCCAC454 /* Build configuration list for PBXProject "WishSaver" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3405DF8DBC8FA21C7330D8B9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E6AEFBF110A411AD93D2E6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83FEDFB79E7156FD7DE65F36 /* WishSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C8E08D740CF7BBCB62BBC62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17634F8D95A1AE84ED5ACC04 /* Assets.xcassets in Resources */,
+				5A31A20A8F88884C0F16FDA3 /* WishLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEA91FCF11E728281A238A77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WishSaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631648EEE0FA9929937BF0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9F6FD8BCC47D225A1B92CA /* Components.swift in Sources */,
+				BAD01A84A6F6E58D886D233B /* Models.swift in Sources */,
+				4C5EC5D15B8ACD088BB87267 /* WishAPIConfig.swift in Sources */,
+				3C55A0352BF6C4E899413C9F /* WishAdViews.swift in Sources */,
+				70FBD2A1DD1E9E0C461E58FD /* WishAddWishTab.swift in Sources */,
+				45AC71E8D4C65EE734F3986C /* WishAdvClient.swift in Sources */,
+				536029EF50EF9D1BA2F3266A /* WishAppDelegate.swift in Sources */,
+				1F15C2472F1E328823835F29 /* WishCheckIn.swift in Sources */,
+				0AFD19EB1A636F5930BCC1EA /* WishCheckInViews.swift in Sources */,
+				9D1EFCF4D175DC20B5D90BB7 /* WishCodeClient.swift in Sources */,
+				D87DBF6377F8E017EBF570AA /* WishCodeEntryView.swift in Sources */,
+				9B8D980B150EE42063976F69 /* WishDataTab.swift in Sources */,
+				5D853F17385F7CB6402B99CD /* WishDeviceIdentity.swift in Sources */,
+				9451750A9517ACC94A2E6EE3 /* WishEditorSheet.swift in Sources */,
+				59497E92028AA38B4302FA0E /* WishEmbeddedBrowserView.swift in Sources */,
+				B54D926161C95D6DA0324A7C /* WishFormat.swift in Sources */,
+				C3C52F0C8DE47F1D1CCFCDFA /* WishJPush.swift in Sources */,
+				C137C0F80261F91252984480 /* WishLaunchConfig.swift in Sources */,
+				7131F4E75F935C6FFF08C664 /* WishLaunchDateGate.swift in Sources */,
+				E55698E6D1BA802824C10D07 /* WishLaunchRootView.swift in Sources */,
+				EF5F391A636A1B3B16AE7DAD /* WishLaunchRouter.swift in Sources */,
+				C94D2F56434F6F5549DCCC9F /* WishNetworkLogger.swift in Sources */,
+				9BEA9D5EB3DDEEDFB8D12D73 /* WishPayFieldClient.swift in Sources */,
+				49EA64CDDEFE38CF2170394E /* WishPreferences.swift in Sources */,
+				E77BC404920709BD77FF278E /* WishPrivacyPolicy.swift in Sources */,
+				5D40C5BB4377A45E4419BE7D /* WishProgressTab.swift in Sources */,
+				AE6C9755CD86F7FD7ADF5B69 /* WishRootTabView.swift in Sources */,
+				71DC9729C7BA8F184607F6BF /* WishSamples.swift in Sources */,
+				71122BA2320AB5979B5D5DA9 /* WishSaverApp.swift in Sources */,
+				60345B6E9BDC571E58DF9342 /* WishSettingsTab.swift in Sources */,
+				1827A29CBB640C8F6F8B8074 /* WishStore.swift in Sources */,
+				768AFE2FBD9C9659E9DAEC60 /* WishTheme.swift in Sources */,
+				CD817290380DEC59E0C5B837 /* WishTutorialView.swift in Sources */,
+				826D6F14AD0E8CA6096713B1 /* WishVersionClient.swift in Sources */,
+				F69ADE5F9FC61E347DBDD9E4 /* help.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EA1B832476B93920D9F8B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_LANGUAGE = en;
+				DEVELOPMENT_TEAM = 484G6WE6BR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9D36A94B7FFC2B036B9A1984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5316228E13969E6DA0EC68A /* Pods-WishSaver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WishSaver/WishSaver.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 7P8ZM5G48P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WishSaver/Info.plist;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wish Saver";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = WishLaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wishsaver.appstore;
+				PRODUCT_NAME = WishSaver;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WishSaver/WishSaver-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B5DDEF84465A453D1DF07203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_LANGUAGE = en;
+				DEVELOPMENT_TEAM = 484G6WE6BR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EE3883F7BBAFCC8236972A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03BA06D0ACFFEDCEF5146C2 /* Pods-WishSaver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WishSaver/WishSaver-Release.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 7P8ZM5G48P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WishSaver/Info.plist;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wish Saver";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = WishLaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wishsaver.appstore;
+				PRODUCT_NAME = WishSaver;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WishSaver/WishSaver-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177CE93AA7AB54A577A7DE85 /* Build configuration list for PBXNativeTarget "WishSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D36A94B7FFC2B036B9A1984 /* Debug */,
+				EE3883F7BBAFCC8236972A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CC3172E54E5C9ADCCAC454 /* Build configuration list for PBXProject "WishSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA1B832476B93920D9F8B8C /* Debug */,
+				B5DDEF84465A453D1DF07203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5B711FCAF872F6F49DBCA8 /* Project object */;
+}
